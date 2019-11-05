@@ -1,0 +1,14 @@
+.cell__block {
+    height: 60px;
+
+    padding-left: 3px;
+
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+
+    color: inherit;
+}

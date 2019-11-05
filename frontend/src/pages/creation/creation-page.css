@@ -1,0 +1,23 @@
+.creation__block {
+    margin: auto auto;
+
+    font-size: 14px;
+}
+
+.description__input {
+    width: 400px;
+}
+
+.full__descriprion {
+    height: 100px;
+}
+
+.send__button {
+    margin-top: 20px;
+}
+
+.result__message {
+    height: 12px;
+
+    color: rgb(102, 19, 19);
+}

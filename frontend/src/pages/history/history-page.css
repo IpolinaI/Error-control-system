@@ -1,0 +1,64 @@
+.error__history__block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    justify-content: space-between;
+}
+
+.comment__field {
+    margin-left: 10px;
+}
+
+.save__button {
+    margin-left: 5px;
+}
+
+.result__message {
+    height: 12px;
+
+    color: rgb(102, 19, 19);
+}
+
+.error__structure__block {
+    font-size: 14px;
+    
+    width: 40%;
+}
+
+.error__structure__block p {
+    padding-bottom: 0;
+}
+
+.error__header {
+    font-weight: 500;
+}
+
+.history__block {
+    width: 55%;
+}
+
+.history__info {
+    box-shadow: 0 0 3px rgb(144, 144, 144);
+
+    table-layout: fixed;
+
+    width: 100%;
+    margin-bottom: 5%;
+
+    font-size: 14px;
+
+    overflow: hidden;
+}
+
+.history__row {
+    background: #F0F0F0;   
+}
+
+.main__history__cell {
+    width: 50%;
+}
+
+.simple__history__cell {
+    width: 25%;
+}

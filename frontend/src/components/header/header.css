@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    display: flex;
+
+	box-sizing: border-box;
+	top: 0;
+    left: 0;
+
+    width: 100%;
+    height: var(--header-height);
+
+    font-size: 15px;
+
+    background: #F0F0F0;   
+    box-shadow: 0 0 3px rgb(144, 144, 144);
+}
+
+.nav__link {
+    padding: 0 30px;
+    
+    line-height: var(--header-height);
+    
+    text-decoration: none;
+    color: black;
+}
+
+.nav__link:hover {
+    background: rgb(224, 224, 224);
+}
+
+.nav__menu {
+    display: flex;
+
+    box-sizing: border-box;
+
+    align-items: center;
+
+    min-width: 800px;
+}

@@ -1,0 +1,32 @@
+.errors__info {
+    box-shadow: 0 0 3px rgb(144, 144, 144);
+
+    table-layout: fixed;
+
+    width: 100%;
+    margin-bottom: 5%;
+
+    font-size: 14px;
+
+    overflow: hidden;
+}
+
+.columns__names__row .cell__block:hover, .error__row {
+    background: #F0F0F0;   
+}
+
+.error__row:hover {
+    background: rgb(224, 224, 224);
+}
+
+.main__error__cell {
+    width: 23%;
+}
+
+.medium__error__cell {
+    width: 13.5%;
+}
+
+.simple__error__cell {
+    width: 12.5%;
+}

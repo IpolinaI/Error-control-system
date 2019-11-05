@@ -1,0 +1,19 @@
+:root {
+  --header-height: 65px;
+  --main-margin-top: calc(var(--header-height) - 5px);
+}
+
+.page__container {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  height: calc(100vh - var(--header-height));
+  
+  margin: var(--main-margin-top) auto 0;
+  
+  padding: 5% 8.5% 5% 8.5%;
+  
+  user-select: none;
+}

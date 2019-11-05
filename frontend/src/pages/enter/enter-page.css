@@ -1,0 +1,45 @@
+.enter__block {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 300px;
+    width: 250px;
+
+    margin: auto auto;
+
+    background: #F0F0F0;
+    box-shadow: 0 0 3px rgb(144, 144, 144);
+
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+
+.enter__sign {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.enter__sign:hover, .active__sign {
+    color: rgb(92, 92, 92);
+}
+
+.enter__input {
+    margin-bottom: 0px;
+}
+
+.enter__button {
+    margin-top: 30px;
+
+    height: 20px;
+    width: 80px;
+}
+
+.error__message {
+    height: 12px;
+
+    color: rgb(102, 19, 19);
+}
